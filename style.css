@@ -41,3 +41,33 @@ img {
     border-radius: 12px;
     margin: 20px 0;
 }
+
+/* Espaçamento entre os botões */
+.button-group {
+    display: flex;
+    gap: 15px;
+}
+
+/* Estilo padrão para ambos os botões */
+.btn {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Quando o botão "Gostei" estiver ativo (Verde) */
+.btn-like.active {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+}
+
+/* Quando o botão "Não Gostei" estiver ativo (Vermelho) */
+.btn-dislike.active {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
