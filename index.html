@@ -7,12 +7,6 @@
 
 </head>
 <body>
-
-    <!-- Botão de alternar o Modo Escuro -->
-    <div class="controle-tema">
-        <button id="alternar-tema" class="btn-tema">Alternar Modo Escuro 🌓</button>
-    </div>
-
     <div class="caixa-verde-escuro">
         <h1>Como a Agricultura de Precisão auxilia na otimização do uso de insumos e seus reflexos sobre a Agricultura Brasileira</h1>
         <p>A Agricultura de Precisão é um conjunto de diferentes tecnologias, como sensores, maquinários aprimorados e sistemas de informação, para isso, essas tecnologias precisam levar em consideração a variabilidade do sistema agrícola.</p>
@@ -39,16 +33,23 @@
     </div>
 
     <div class="feedback-container">
-        <p class="feedback-titulo">Esta página foi útil?</p>
-        <div class="feedback-botoes">
-        <!-- Botão de Like com emoji -->
-        <button class="btn-feedback">👍</button>
-        <!-- Botão de Deslike com emoji -->
-        <button class="btn-feedback">👎</button>
+        <h3>O que você achou deste conteúdo?</h3>
+        <div class="button-group">
+            
+            <!-- Botão de Gostei -->
+            <button id="likeBtn" class="btn btn-like">
+                <span>👍</span> Gostei (<span id="likeCount" class="count">0</span>)
+            </button>
+            
+            <!-- Botão de Não Gostei -->
+            <button id="dislikeBtn" class="btn btn-dislike">
+                <span>👎</span> Não Gostei (<span id="dislikeCount" class="count">0</span>)
+            </button>
+
         </div>
     </div>
-
-    <script src="script.js"></script>
     
+<script src="script.js"></script>
+
 </body>
 </html>
