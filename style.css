@@ -1,0 +1,101 @@
+body {
+    
+    background-color: #f4f7f5;
+    color: #1c2e24;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}    
+
+/* botão */
+.controle-tema {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.btn-tema {
+    padding: 10px 15px;
+    background-color: #1e3f20;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* parte do texto */
+.caixa-verde-escuro {
+    background-color: #1e3f20;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.caixa-verde-claro {
+    background-color: #e2ebd5;
+    color: #1e3f20;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+/* configurações da imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+/* Botões like e deslike */
+.feedback-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.feedback-titulo {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.feedback-botoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* coisas para o feedback */
+.btn-feedback {
+    background-color: #064e3b; /* Cor do feedback */
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+
+body.modo-escuro {
+    background-color: #0f1a14; /* Fundo vira verde bem escuro */
+    color: #e2ebd5; /* Texto principal vira verde claro */
+}
+
+body.modo-escuro .btn-tema {
+    background-color: #e2ebd5;
+    color: #1e3f20;
+}
+
+body.modo-escuro .caixa-verde-escuro {
+    background-color: #0d2410;
+}
+
+body.modo-escuro .caixa-verde-claro {
+    background-color: #172c1d;
+    color: #e2ebd5;
+}
+
+body.modo-escuro .btn-feedback {
+    background-color: #172c1d; /* Botão para o modo escuro */
+}
