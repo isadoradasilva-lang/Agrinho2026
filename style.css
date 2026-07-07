@@ -58,14 +58,14 @@ img {
     font-size: 14px;
 }
 
-/* Quando o botão "Gostei" estiver ativo (Verde) */
+/* Quando o botão "like" estiver ativo (Verde) */
 .btn-like.active {
     background-color: #d4edda;
     border-color: #c3e6cb;
     color: #155724;
 }
 
-/* Quando o botão "Não Gostei" estiver ativo (Vermelho) */
+/* Quando o botão "dislike" estiver ativo (Vermelho) */
 .btn-dislike.active {
     background-color: #f8d7da;
     border-color: #f5c6cb;
